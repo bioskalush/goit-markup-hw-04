@@ -122,6 +122,8 @@ a {
 }
 
 .contacts-link {
+  display: flex;
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
   color: var(--additional-text-color);
@@ -225,6 +227,8 @@ a {
 }
 
 .thumb {
+  display: flex;
+  align-items: center;
   background-color: var(--bg-section-color);
   margin-bottom: 30px;
   width: 270px;
@@ -316,6 +320,15 @@ a {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
+.social-box {
+  margin-right: 10px;
+}
+
+.social-box:last-child {
+  margin-right: 0;
+}
+
 .commands-social-box {
   margin-top: 16px;
   padding-left: 32px;
@@ -329,11 +342,11 @@ a {
   margin-right: 10px;
   width: 44px;
   height: 44px;
-  display: block;
+  display: flex;
+  align-items: center;
   border-radius: 50%;
   background-color: var(--bg-section-color-color);
   fill: var(--clients-color);
-  margin-right: 10px;
   cursor: pointer;
 }
 
@@ -348,13 +361,10 @@ a {
 }
 
 .commands-icon {
-  width: 44px;
-  height: 44px;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  margin: 0 auto;
   fill: var(--clients-colorr);
 }
-/* Наші партнери */
+/* ----------------------------Наші партнери --------------------*/
 .partners-list {
   display: flex;
 }
@@ -367,17 +377,20 @@ a {
 }
 
 .partners-item {
-  display: inline-block;
   border: 1px solid var(--clients-color);
   border-radius: 4px;
   cursor: pointer;
 }
 
-.partners-icon {
+.partners-link {
+  display: flex;
+  align-items: center;
   width: 170px;
   height: 92px;
-  padding-top: 23px;
-  padding-bottom: 23px;
+}
+
+.partners-icon {
+  margin: 0 auto;
   fill: var(--clients-color);
 }
 
@@ -458,10 +471,10 @@ a {
 .social-link {
   width: 44px;
   height: 44px;
-  display: block;
+  display: flex;
+  align-items: center;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
-  margin-right: 10px;
   cursor: pointer;
 }
 
@@ -471,6 +484,7 @@ a {
 }
 
 .social-icon {
+  margin: 0 auto;
   fill: var(--bg-color);
 }
 
