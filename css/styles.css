@@ -443,6 +443,9 @@ a {
 /* Соціальні мережі */
 .footer-title {
   margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.17;
   text-transform: uppercase;
   color: var(--bg-color);
 }
